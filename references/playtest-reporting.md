@@ -24,7 +24,7 @@ Preliminary playtest severity and formal UI acceptance severity are different sy
 ## Report Sections
 
 1. Header: project, round, date, environment, build/version if known, persona file or explicit persona, task, browser/tool mode, and evidence base.
-2. Safety and scope: permitted writes, disposable data, excluded operations, login method, and anything not covered.
+2. Safety and scope: permitted writes, disposable data, excluded operations, login method, account strategy (designated existing test account or temporary synthetic account), temporary resource types/IDs created by this run, verified cleanup outcome, and anything not covered. Never include credentials or secret values.
 3. First-person narrative in chronological order. Use plain language and concrete moments; do not turn the narrative into a design lecture.
 4. Task result: `completed`, `completed with effort`, or `not completed`, with the blocking point.
 5. Metrics: steps, clicks/keyboard commands, hesitations, backtracks, corrections, near misses, and uncovered operations.
